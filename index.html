@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <title>Điều khiển nhiệt độ</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>Điều khiển nhiệt độ</h1>
+        <p class="temp"> Nhiệt độ:
+            <span class="temp_number"></span>
+            <span>Độ C</span>
+        </p>
+        <div class="container">
+            <div class="content">
+                <div class="fan col-1-2">
+
+                    <img class="fan_icon-close" src="./img/close.png" alt="Quạt tắt">
+                    <img class="fan_icon-open remove" src="./img/open.jpg" alt="Quạt mở">
+
+                    <button onclick="handleFan()" class="btn btn-fan">Turn on</button>
+                </div>
+                <div class="light col-1-2">
+
+                    <img class="light_icon-close" src="./img/light-off.png" alt="Đèn tắt">
+                    <img class="light_icon-open remove " src="./img/light-on.png" alt="Đen mở">
+
+                    <button onclick="handleLight()" class="btn btn-light">Turn on</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>

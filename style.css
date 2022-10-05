@@ -1,0 +1,97 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #5E5C7F;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+.temp {
+    color: #FFF;
+    font-size: 36px;
+    /* padding-top: 24px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.temp {
+    font-size: 20px;
+    color: rgb(236, 45, 61);
+}
+
+.container {
+    margin-top: 30px;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 100px;
+    width: 60%;
+    /* height: 100%; */
+    /* background-color: cadetblue; */
+    display: flex;
+}
+
+.box_img {
+    width: 100%;
+    margin: 10px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fan_icon-close,
+.fan_icon-open {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    /* max-height: 151.38px;
+    object-fit: cover; */
+}
+
+.fan_icon-open {
+    width: 60%;
+    /* height: 76%; */
+}
+
+.light_icon-close,
+.light_icon-open {
+    width: 60%;
+    text-align: center;
+}
+
+.remove {
+    display: none;
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    /* color: red; */
+    min-width: 90.5px;
+    margin-top: 16px;
+    padding: 6px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background: #7a75d1;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    transform: scale(1.2);
+}
